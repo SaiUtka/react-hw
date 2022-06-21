@@ -8,40 +8,60 @@ function App() {
     return (
         <div className={'container'}>
             <Characters
-                name={'Homer'}
-                desc={'Homer Jay Simpson is the bumbling husband of Marge, and father to Bart, Lisa and Maggie Simpson.' +
-                    ' He is the son of Mona and Abraham "Grampa" Simpson.'}
-                image={'https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png'}
+                id={'302'}
+                name={'Ruben'}
+                status={'Dead'}
+                species={'human'}
+                gender={'Male'}
+                image={'https://rickandmortyapi.com/api/character/avatar/302.jpeg'}
             />
 
             <Characters
-                name={'Marge'}
-                desc={'Marjorie Jacqueline "Marge" Simpson (née Bouvier) is a character, based on the real ' +
-                    'Marge (Matt Groening\'s mom), in the American animated sitcom ' +
-                    'The Simpsons and part of the eponymous family.'}
-                image={'https://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png'}
+                id={'304'}
+                name={'Scary Brandon'}
+                status={'Alive'}
+                species={'Mythological Creature'}
+                gender={'male'}
+                image={'https://rickandmortyapi.com/api/character/avatar/304.jpeg'}
             />
 
             <Characters
-                name={'Bart'}
-                desc={'Bart Simpson is a fictional character in the American animated television series ' +
-                    'The Simpsons and part of the Simpson family.'}
-                image={'https://upload.wikimedia.org/wikipedia/uk/a/aa/Bart_simpson.png'}
+                id={'442'}
+                name={'Shaved Head Jerry'}
+                status={'Alive'}
+                species={'human'}
+                gender={'Male'}
+                image={'https://rickandmortyapi.com/api/character/avatar/442.jpeg'}
             />
 
             <Characters
-                name={'Lisa'}
-                desc={'Lisa Marie Simpson is a fictional character in the animated television series The Simpsons. ' +
-                    'She is the middle child and most accomplished of the Simpson family.'}
-                image={'https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png'}
+                id={'640'}
+                name={'Angry Glorzo'}
+                status={'Dead'}
+                species={'Alien'}
+                gender={'Male'}
+                image={'https://rickandmortyapi.com/api/character/avatar/640.jpeg'}
             />
 
             <Characters
-                name = {'Maggie'}
-                desc = {'Margaret Evelyn Lenny "Maggie" Simpson is a fictional character in the animated television ' +
-                    'series The Simpsons and a part of the Simpson family, notably the youngest member.'}
-                image = {'https://upload.wikimedia.org/wikipedia/en/9/9d/Maggie_Simpson.png'}
+                id={'689'}
+                name={'Scarecrow Jerry'}
+                status={'Dead'}
+                species={'Robot'}
+                gender={'Male'}
+                image={'https://rickandmortyapi.com/api/character/avatar/689.jpeg'}
             />
+
+            <Characters
+                id={'693'}
+                name={'Glockenspiel Beth'}
+                status={'Dead'}
+                species={'Robot'}
+                gender={'Female'}
+                image={'https://rickandmortyapi.com/api/character/avatar/693.jpeg'}
+            />
+
+
 
 
         </div>

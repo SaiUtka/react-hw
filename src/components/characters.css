@@ -1,40 +1,53 @@
 
+h1, h3 {
+    margin: 0;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 20px;
-    justify-content: center;
     padding: 20px;
     box-sizing: border-box;
+    background-color: rgb(32, 35, 41);
 
 }
 
 .character {
     display: flex;
-    width: calc(50% - 20px);
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid darkblue;
-    padding: 10px;
-    box-sizing: border-box;
+    width: calc(50% - 10px);
+    border-radius: 10px;
+    background-color: rgb(60, 62, 68);;
+    color: #fff;
+    column-gap: 20px;
 
 }
 
 .text {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    box-sizing: border-box;
 
 }
 
 .title {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
 
 }
 
-.description {
-
+.info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+    padding: 10px 0;
+    box-sizing: border-box;
 }
 
 .img {
-    width: 150px;
+    border-radius: 10px;
 
 }
