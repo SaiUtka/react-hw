@@ -1,0 +1,40 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.character {
+    display: flex;
+    width: calc(50% - 20px);
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.text {
+    text-align: center;
+
+}
+
+.title {
+
+}
+
+.description {
+
+}
+
+.img {
+    width: 150px;
+
+}
