@@ -10,7 +10,7 @@ function App() {
     let [posts, setPosts] = useState([])
     useEffect(() => {
         getPosts().then(value => setPosts([...value]))
-    });
+    }, []);
 
     let getUserId = (id) => {
         getPosts(id).then(data => setPosts([...data]))
