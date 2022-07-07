@@ -1,17 +1,17 @@
 
 import './App.css';
-
-
-
+import {Comments, Users} from "./components";
 
 function App() {
 
-  return (
-    <div>
+    return (
+        <div>
+            <Users/>
+            <Comments/>
 
 
-    </div>
-  );
+        </div>
+    );
 }
 
 export default App;
